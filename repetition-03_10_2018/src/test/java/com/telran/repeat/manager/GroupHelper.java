@@ -62,9 +62,17 @@ public class GroupHelper extends HelperBase {
 
   public void createGroup() {
     initGroupCreation();
-    fillGroupForm(new Group("new", "new 1", "new"));
+    fillGroupForm(new Group()
+            .withGroupName("new")
+            .withGroupHeader("new 1")
+            .withGroupFooter("new"));
     confirmGroupCreation();
     returnToGroupsPage();
+  }
+
+  public void selectGroupByIndex(int i) {
+    wd.findElements(By.name("selected[]")).get(i).click();
+
   }
 
 //  public void createGroup() {

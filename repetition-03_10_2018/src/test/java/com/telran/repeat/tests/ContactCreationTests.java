@@ -12,7 +12,12 @@ public class ContactCreationTests extends TestBase {
   @Test
   public void createContactTest() throws IOException {
     app.getContactHelper().initContactCreation();
-    app.getContactHelper().fillContactForm(new Contact("Moshe", "Coen", "Tel-Aviv", "gg@hh.com", "134455566"));
+    app.getContactHelper().fillContactForm(new Contact()
+            .setfName("Moshe")
+            .setlName("Coen")
+            .setAddress("Tel-Aviv")
+            .setEmail("gg@hh.com")
+            .setPhoneHome("134455566"));
     app.getContactHelper().confirmContactCreation();
 
   }
