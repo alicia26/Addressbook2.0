@@ -19,6 +19,13 @@ public class HelperBase {
     }
   }
 
+  public void typeForm(By locator, String text) {
+    if(text != null){
+      wd.findElement(locator).click();
+      wd.findElement(locator).sendKeys(text);
+    }
+  }
+
   public void click(By locator) {
     wd.findElement(locator).click();
   }

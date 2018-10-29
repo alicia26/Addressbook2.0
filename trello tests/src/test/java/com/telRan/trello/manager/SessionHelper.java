@@ -8,6 +8,7 @@ public class SessionHelper  extends  HelperBase{
     super(wd);
   }
   public void login(String user, String password) {
+    click(By.cssSelector("[href='/login?returnUrl=%2F']"));
     type(By.name("user"), user);
     type(By.name("password"), password);
     click(By.id("login"));
