@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telRan.ashkelon.ContactCreationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-29T12:38:41" hostname="Lena-Toshiba" time="1.554">
+  <properties/>
+  <testcase name="testContactCreation" classname="com.telRan.ashkelon.ContactCreationTests" time="1.554"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
