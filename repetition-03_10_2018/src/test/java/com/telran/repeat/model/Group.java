@@ -32,4 +32,12 @@ public class Group {
     return groupFooter;
   }
 
+  @Override
+  public String toString() {
+    return "Group{" +
+            "groupName='" + groupName + '\'' +
+            ", groupHeader='" + groupHeader + '\'' +
+            ", groupFooter='" + groupFooter + '\'' +
+            '}';
+  }
 }

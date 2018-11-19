@@ -7,10 +7,19 @@ public class Contact {
   private  String email;
   private  String phoneHome;
 
+  @Override
+  public String toString() {
+    return "Contact{" +
+            "fName='" + fName + '\'' +
+            ", lName='" + lName + '\'' +
+            '}';
+  }
+
   public Contact setfName(String fName) {
     this.fName = fName;
     return  this;
   }
+
 
   public Contact setlName(String lName) {
     this.lName = lName;
