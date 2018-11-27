@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.ashkelon.GroupCreationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-10-29T12:38:20" hostname="Lena-Toshiba" time="3.812">
+<testsuite name="com.telRan.ashkelon.GroupCreationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-11-21T16:22:05" hostname="Lena-Toshiba" time="3.637">
   <properties/>
-  <testcase name="testGroupCreation" classname="com.telRan.ashkelon.GroupCreationTests" time="1.341"/>
-  <testcase name="testGroupCreationEmpty" classname="com.telRan.ashkelon.GroupCreationTests" time="1.108"/>
-  <testcase name="testGroupCreationlongName" classname="com.telRan.ashkelon.GroupCreationTests" time="1.36"/>
+  <testcase name="testGroupCreation" classname="com.telRan.ashkelon.GroupCreationTests" time="1.284"/>
+  <testcase name="testGroupCreationEmpty" classname="com.telRan.ashkelon.GroupCreationTests" time="1.046"/>
+  <testcase name="testGroupCreationlongName" classname="com.telRan.ashkelon.GroupCreationTests" time="1.303"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

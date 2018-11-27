@@ -4,6 +4,7 @@ import com.telran.repeat.model.Contact;
 import com.telran.repeat.provider.StaticProvider;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -14,6 +15,17 @@ public class ContactCreationTests extends TestBase {
   public void createContactTest(Contact contact) {
     app.getContactHelper().initContactCreation();
     app.getContactHelper().fillContactForm(contact);
+    app.getContactHelper().confirmContactCreation();
+  }
+
+  @Test
+  public void createContactTest2() {
+    app.getContactHelper().initContactCreation();
+    app.getContactHelper().fillContactForm(new Contact()
+            .setfName("1John")
+            .setlName("Smith")
+            .setGroup("test5")
+            .setPhoto(new File("src/test/resources/cat.jpg")));
     app.getContactHelper().confirmContactCreation();
 
   }

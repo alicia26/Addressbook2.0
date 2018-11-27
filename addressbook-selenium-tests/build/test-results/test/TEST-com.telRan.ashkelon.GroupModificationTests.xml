@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telRan.ashkelon.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-29T12:38:28" hostname="Lena-Toshiba" time="1.383">
+<testsuite name="com.telRan.ashkelon.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-21T16:22:13" hostname="Lena-Toshiba" time="1.245">
   <properties/>
-  <testcase name="testGroupModification" classname="com.telRan.ashkelon.GroupModificationTests" time="1.383"/>
+  <testcase name="testGroupModification" classname="com.telRan.ashkelon.GroupModificationTests" time="1.245"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
